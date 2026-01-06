@@ -52,10 +52,10 @@ class _MyHomePageState extends State<MyHomePage> {
         },
       ),
     
-    );
-    //  ..loadRequest(Uri.parse("https://flutter.dev/"));
-    _controller.loadRequest(Uri.parse("https://flutter.dev/"));
-    _controller.loadFlutterAsset('assets/index.html');
+    )
+     ..loadRequest(Uri.parse("https://flutter.dev/"));
+    // _controller.loadRequest(Uri.parse("https://flutter.dev/"));
+    // _controller.loadFlutterAsset('assets/index.html');
    
   }
 
